@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92B88FF92B2754E700726D5C /* SleepDeprivationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B88FF82B2754E700726D5C /* SleepDeprivationApp.swift */; };
+		92B88FFB2B2754E700726D5C /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B88FFA2B2754E700726D5C /* MeetingView.swift */; };
+		92B88FFD2B2754E900726D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B88FFC2B2754E900726D5C /* Assets.xcassets */; };
+		92B890002B2754E900726D5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B88FFF2B2754E900726D5C /* Preview Assets.xcassets */; };
+		92B8900A2B2754E900726D5C /* SleepDeprivationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B890092B2754E900726D5C /* SleepDeprivationTests.swift */; };
+		92B890142B2754E900726D5C /* SleepDeprivationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B890132B2754E900726D5C /* SleepDeprivationUITests.swift */; };
+		92B890162B2754E900726D5C /* SleepDeprivationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B890152B2754E900726D5C /* SleepDeprivationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92B890062B2754E900726D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B88FED2B2754E700726D5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B88FF42B2754E700726D5C;
+			remoteInfo = SleepDeprivation;
+		};
+		92B890102B2754E900726D5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92B88FED2B2754E700726D5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B88FF42B2754E700726D5C;
+			remoteInfo = SleepDeprivation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92B88FF52B2754E700726D5C /* SleepDeprivation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepDeprivation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B88FF82B2754E700726D5C /* SleepDeprivationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDeprivationApp.swift; sourceTree = "<group>"; };
+		92B88FFA2B2754E700726D5C /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		92B88FFC2B2754E900726D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92B88FFF2B2754E900726D5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92B890052B2754E900726D5C /* SleepDeprivationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepDeprivationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B890092B2754E900726D5C /* SleepDeprivationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDeprivationTests.swift; sourceTree = "<group>"; };
+		92B8900F2B2754E900726D5C /* SleepDeprivationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepDeprivationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B890132B2754E900726D5C /* SleepDeprivationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDeprivationUITests.swift; sourceTree = "<group>"; };
+		92B890152B2754E900726D5C /* SleepDeprivationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDeprivationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92B88FF22B2754E700726D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B890022B2754E900726D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B8900C2B2754E900726D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92B88FEC2B2754E700726D5C = {
+			isa = PBXGroup;
+			children = (
+				92B88FF72B2754E700726D5C /* SleepDeprivation */,
+				92B890082B2754E900726D5C /* SleepDeprivationTests */,
+				92B890122B2754E900726D5C /* SleepDeprivationUITests */,
+				92B88FF62B2754E700726D5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92B88FF62B2754E700726D5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B88FF52B2754E700726D5C /* SleepDeprivation.app */,
+				92B890052B2754E900726D5C /* SleepDeprivationTests.xctest */,
+				92B8900F2B2754E900726D5C /* SleepDeprivationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92B88FF72B2754E700726D5C /* SleepDeprivation */ = {
+			isa = PBXGroup;
+			children = (
+				92B88FF82B2754E700726D5C /* SleepDeprivationApp.swift */,
+				92B88FFA2B2754E700726D5C /* MeetingView.swift */,
+				92B88FFC2B2754E900726D5C /* Assets.xcassets */,
+				92B88FFE2B2754E900726D5C /* Preview Content */,
+			);
+			path = SleepDeprivation;
+			sourceTree = "<group>";
+		};
+		92B88FFE2B2754E900726D5C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92B88FFF2B2754E900726D5C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92B890082B2754E900726D5C /* SleepDeprivationTests */ = {
+			isa = PBXGroup;
+			children = (
+				92B890092B2754E900726D5C /* SleepDeprivationTests.swift */,
+			);
+			path = SleepDeprivationTests;
+			sourceTree = "<group>";
+		};
+		92B890122B2754E900726D5C /* SleepDeprivationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92B890132B2754E900726D5C /* SleepDeprivationUITests.swift */,
+				92B890152B2754E900726D5C /* SleepDeprivationUITestsLaunchTests.swift */,
+			);
+			path = SleepDeprivationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92B88FF42B2754E700726D5C /* SleepDeprivation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B890192B2754E900726D5C /* Build configuration list for PBXNativeTarget "SleepDeprivation" */;
+			buildPhases = (
+				92B88FF12B2754E700726D5C /* Sources */,
+				92B88FF22B2754E700726D5C /* Frameworks */,
+				92B88FF32B2754E700726D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepDeprivation;
+			productName = SleepDeprivation;
+			productReference = 92B88FF52B2754E700726D5C /* SleepDeprivation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92B890042B2754E900726D5C /* SleepDeprivationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B8901C2B2754E900726D5C /* Build configuration list for PBXNativeTarget "SleepDeprivationTests" */;
+			buildPhases = (
+				92B890012B2754E900726D5C /* Sources */,
+				92B890022B2754E900726D5C /* Frameworks */,
+				92B890032B2754E900726D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B890072B2754E900726D5C /* PBXTargetDependency */,
+			);
+			name = SleepDeprivationTests;
+			productName = SleepDeprivationTests;
+			productReference = 92B890052B2754E900726D5C /* SleepDeprivationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92B8900E2B2754E900726D5C /* SleepDeprivationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B8901F2B2754E900726D5C /* Build configuration list for PBXNativeTarget "SleepDeprivationUITests" */;
+			buildPhases = (
+				92B8900B2B2754E900726D5C /* Sources */,
+				92B8900C2B2754E900726D5C /* Frameworks */,
+				92B8900D2B2754E900726D5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B890112B2754E900726D5C /* PBXTargetDependency */,
+			);
+			name = SleepDeprivationUITests;
+			productName = SleepDeprivationUITests;
+			productReference = 92B8900F2B2754E900726D5C /* SleepDeprivationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92B88FED2B2754E700726D5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					92B88FF42B2754E700726D5C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					92B890042B2754E900726D5C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 92B88FF42B2754E700726D5C;
+					};
+					92B8900E2B2754E900726D5C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 92B88FF42B2754E700726D5C;
+					};
+				};
+			};
+			buildConfigurationList = 92B88FF02B2754E700726D5C /* Build configuration list for PBXProject "SleepDeprivation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92B88FEC2B2754E700726D5C;
+			productRefGroup = 92B88FF62B2754E700726D5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B88FF42B2754E700726D5C /* SleepDeprivation */,
+				92B890042B2754E900726D5C /* SleepDeprivationTests */,
+				92B8900E2B2754E900726D5C /* SleepDeprivationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92B88FF32B2754E700726D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B890002B2754E900726D5C /* Preview Assets.xcassets in Resources */,
+				92B88FFD2B2754E900726D5C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B890032B2754E900726D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B8900D2B2754E900726D5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92B88FF12B2754E700726D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B88FFB2B2754E700726D5C /* MeetingView.swift in Sources */,
+				92B88FF92B2754E700726D5C /* SleepDeprivationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B890012B2754E900726D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B8900A2B2754E900726D5C /* SleepDeprivationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B8900B2B2754E900726D5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B890162B2754E900726D5C /* SleepDeprivationUITestsLaunchTests.swift in Sources */,
+				92B890142B2754E900726D5C /* SleepDeprivationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92B890072B2754E900726D5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B88FF42B2754E700726D5C /* SleepDeprivation */;
+			targetProxy = 92B890062B2754E900726D5C /* PBXContainerItemProxy */;
+		};
+		92B890112B2754E900726D5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B88FF42B2754E700726D5C /* SleepDeprivation */;
+			targetProxy = 92B890102B2754E900726D5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92B890172B2754E900726D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92B890182B2754E900726D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92B8901A2B2754E900726D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepDeprivation/Preview Content\"";
+				DEVELOPMENT_TEAM = 6FY4WG44Y2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ardusa.SleepDeprivation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92B8901B2B2754E900726D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SleepDeprivation/Preview Content\"";
+				DEVELOPMENT_TEAM = 6FY4WG44Y2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ardusa.SleepDeprivation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92B8901D2B2754E900726D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FY4WG44Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ardusa.SleepDeprivationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepDeprivation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SleepDeprivation";
+			};
+			name = Debug;
+		};
+		92B8901E2B2754E900726D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FY4WG44Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ardusa.SleepDeprivationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepDeprivation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SleepDeprivation";
+			};
+			name = Release;
+		};
+		92B890202B2754E900726D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FY4WG44Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ardusa.SleepDeprivationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepDeprivation;
+			};
+			name = Debug;
+		};
+		92B890212B2754E900726D5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FY4WG44Y2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ardusa.SleepDeprivationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepDeprivation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92B88FF02B2754E700726D5C /* Build configuration list for PBXProject "SleepDeprivation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B890172B2754E900726D5C /* Debug */,
+				92B890182B2754E900726D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B890192B2754E900726D5C /* Build configuration list for PBXNativeTarget "SleepDeprivation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B8901A2B2754E900726D5C /* Debug */,
+				92B8901B2B2754E900726D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B8901C2B2754E900726D5C /* Build configuration list for PBXNativeTarget "SleepDeprivationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B8901D2B2754E900726D5C /* Debug */,
+				92B8901E2B2754E900726D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B8901F2B2754E900726D5C /* Build configuration list for PBXNativeTarget "SleepDeprivationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B890202B2754E900726D5C /* Debug */,
+				92B890212B2754E900726D5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92B88FED2B2754E700726D5C /* Project object */;
+}
